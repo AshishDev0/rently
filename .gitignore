@@ -1,0 +1,75 @@
+# -------------------------------
+# Node modules
+# -------------------------------
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# -------------------------------
+# Build output
+# -------------------------------
+# Next.js
+client/.next/
+client/out/
+
+# Express (if using ts build)
+server/dist/
+server/build/
+
+# -------------------------------
+# Environment variables
+# -------------------------------
+*.env
+*.env.*
+
+# -------------------------------
+# Logs
+# -------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------------
+# OS and Editor files
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# -------------------------------
+# Testing
+# -------------------------------
+coverage/
+*.lcov
+
+# -------------------------------
+# Misc
+# -------------------------------
+.envrc
+*.swp
+
+# -------------------------------
+# PostgreSQL
+# -------------------------------
+# If you're storing database files locally (not common with Docker)
+*.pgsql
+*.sql
+*.dump
+*.backup
+
+# Docker DB volumes (if mapped locally)
+pgdata/
+postgres-data/
+db-data/
+
+# -------------------------------
+# Docker
+# -------------------------------
+docker-compose.override.yml
+.docker/
+*.pid
