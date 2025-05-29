@@ -73,3 +73,7 @@ db-data/
 docker-compose.override.yml
 .docker/
 *.pid
+
+
+# asset
+/asset-download
